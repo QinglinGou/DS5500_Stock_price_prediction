@@ -1,0 +1,17 @@
+,,Train MAE,Train RMSE,Test MAE,Test RMSE,Best Params
+Without FE,Linear Regression,2.725823294380016,3.8265331580236652,5.900444129365981,6.846340637528257,{'regressor__fit_intercept': True}
+Without FE,Lasso,2.7841592792240966,3.9710464432395574,3.6647936726201205,4.518830874025669,"{'regressor__alpha': 1, 'regressor__max_iter': 1000}"
+Without FE,Random Forest,1.354841374662311,1.9549384124891558,12.335341818948432,14.96128814523418,"{'criterion': 'squared_error', 'max_depth': 8, 'max_features': 'sqrt', 'min_samples_split': 4, 'n_estimators': 100}"
+Without FE,LSTM,8.871458553228198,15.005021773411519,43.69530307834285,46.60188944159473,"{'batch_size': 32, 'epochs': 100, 'optimizer': 'adam'}"
+Boruta,Linear Regression,2.725823294380016,3.8265331580236652,5.900444129365981,6.846340637528257,{'regressor__fit_intercept': True}
+Boruta,Lasso,2.7841592792240966,3.9710464432395574,3.6647936726201205,4.518830874025669,"{'regressor__alpha': 1, 'regressor__max_iter': 1000}"
+Boruta,Random Forest,0.614262480562803,0.9497438418405703,11.813152137098895,14.44566183775869,"{'criterion': 'squared_error', 'max_depth': 24, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 100}"
+Boruta,LSTM,9.514588391252515,16.33058379138373,46.531230710289854,49.27577771584418,"{'batch_size': 32, 'epochs': 100, 'optimizer': 'adam'}"
+PCA,Linear Regression,3.02300633957172,4.267498714952417,75.61066658474282,81.06927291402988,{'regressor__fit_intercept': True}
+PCA,Lasso,3.1299042230149046,4.369032736879735,75.61066658474282,81.01731355070612,"{'regressor__alpha': 0.5, 'regressor__max_iter': 1000}"
+PCA,Random Forest,1.3485326530784107,1.9194668497757306,68.85370381031031,72.9982280736789,"{'criterion': 'squared_error', 'max_depth': 16, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 200}"
+PCA,LSTM,7.937199784541342,13.723326959024732,75.69128897303848,79.39160200956437,"{'batch_size': 32, 'epochs': 100, 'optimizer': 'adam'}"
+t-SNE,Linear Regression,13.007425839204544,16.009103364798897,72.1300373804814,74.59697030536748,{'regressor__fit_intercept': True}
+t-SNE,Lasso,13.004940798282139,16.0105377959614,72.18012608179582,74.64810484917288,"{'regressor__alpha': 0.5, 'regressor__max_iter': 1000}"
+t-SNE,Random Forest,1.3238129169057056,1.9097125339696794,73.32839306087364,78.93799312852387,"{'criterion': 'squared_error', 'max_depth': 24, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 100}"
+t-SNE,LSTM,8.896375405107005,14.312272508842478,66.73606613791692,72.1587067392751,"{'batch_size': 32, 'epochs': 100, 'optimizer': 'adam'}"
