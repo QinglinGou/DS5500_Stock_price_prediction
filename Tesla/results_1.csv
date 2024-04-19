@@ -1,0 +1,13 @@
+,,Train MAE,Train RMSE,Test MAE,Test RMSE,Best Params
+Without FE,0,3.9726472473840864,6.833653234031334,7.106205797582764,8.83450683624743,{'regressor__fit_intercept': True}
+Without FE,1,3.9691151574794326,6.91336223147107,5.365759855707431,7.092177070647941,"{'regressor__alpha': 0.5, 'regressor__max_iter': 1000}"
+Without FE,2,1.4650573588335316,2.575668576013566,6.80658380463962,8.654962483606624,"{'criterion': 'squared_error', 'max_depth': 16, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 200}"
+Boruta,0,3.91336032343707,6.85818626280692,6.065593802232497,7.901760743308424,{'regressor__fit_intercept': True}
+Boruta,1,3.9326780401016035,6.921468769893401,5.311039245711599,7.055495702584842,"{'regressor__alpha': 0.5, 'regressor__max_iter': 1000}"
+Boruta,2,1.4883698592919978,2.6182074668915205,6.783170924665218,8.678898618501574,"{'criterion': 'squared_error', 'max_depth': 16, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 100}"
+PCA,0,6.463458965479892,9.470052143605413,82.0711293906863,103.02012454336614,{'regressor__fit_intercept': True}
+PCA,1,6.476011039770418,9.513806441304308,82.04900839769148,102.91254331491622,"{'regressor__alpha': 0.5, 'regressor__max_iter': 1000}"
+PCA,2,2.327512950169411,3.7731125945675577,64.34727944073079,82.85427163638491,"{'criterion': 'squared_error', 'max_depth': 16, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 100}"
+t-SNE,0,29.34237203876842,37.07326882790911,84.548161692958,88.55891550166594,{'regressor__fit_intercept': True}
+t-SNE,1,29.33583561762827,37.07356919178445,84.54041217864336,88.54277246822356,"{'regressor__alpha': 0.5, 'regressor__max_iter': 1000}"
+t-SNE,2,2.334922390960199,3.741824017007921,99.86309574980456,111.91629576931064,"{'criterion': 'squared_error', 'max_depth': 16, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 100}"
