@@ -12,7 +12,7 @@ Stock price prediction is a complex challenge that requires robust analytical mo
 Before you begin, ensure you have met the following requirements:
 - Python 3.8 or above
 - pip (Python package installer)
-- Jupyter notebooks
+- Jupyter notebook
 
 ## Installation
 To use this project:
@@ -25,6 +25,8 @@ git clone https://github.com/QinglinGou/DS5500_Stock_price_prediction.
 ```
 pip install -r requirements.txt
 ```
+For detailed installation instructions, see [INSTALL.md](INSTALL.md).
+
 
 ## Running the Project
 
@@ -34,8 +36,6 @@ Follow these steps to run the project components:
 - **Feature Engineering**: Run `Feature_Engineering.ipynb` to prepare and transform stock data features.
 - **Model Training (LR, Lasso, RF)**: Execute `linear_Regression&_Lasso&_RF.ipynb` for training Linear Regression, Lasso, and Random Forest models.
 - **LSTM Model Tuning**: Fine-tune LSTM parameters with `LSTM_fine_tuning_gridsearch.ipynb`.
-
-
 
 
 ## Usage Instructions
@@ -53,12 +53,12 @@ To utilize this project, you'll primarily interact with Jupyter notebooks that c
 To test the trading strategy on Tesla stock, open and run the cells within the `Tesla/Lasso-training.ipynb` notebook. A similar process applies to other notebooks for tasks such as model training or data visualization.
 
 
-## Libraries and Tools Used
+## Libraries and Tools 
 
 - **Environment**: Google Colab
 - **GPU**: Nvidia T4 GPU
 - **IDE**: Visual Studio Code
-- **Version Control**: Git via GitHub
+- **Version Control**: GitHub
 
 ### Python Libraries:
 
