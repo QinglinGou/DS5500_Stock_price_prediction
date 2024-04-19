@@ -1,0 +1,5 @@
+Feature Engineering Method,Best Trial Train MAE,Best Trial Train RMSE,Best Trial Test MAE,Best Trial Test RMSE,Best Params
+Without Feature Engineering,2.5542720071826484,3.477241476334834,3.99596142383188,4.851576031292211,"{'lstm_units': 50, 'dropout_rate': 0.1, 'learning_rate': 0.01}"
+Boruta,2.2149430615953927,3.181392687403489,3.276930479259315,3.908492061491009,"{'lstm_units': 50, 'dropout_rate': 0.1, 'learning_rate': 0.01}"
+PCA,2.4168825844568613,3.507058736805934,3.412320866218449,4.22627405488062,"{'lstm_units': 50, 'dropout_rate': 0.1, 'learning_rate': 0.001}"
+t-SNE,2.327958643920508,3.2680492244884025,2.6966839696026144,3.5450752219544888,"{'lstm_units': 50, 'dropout_rate': 0.1, 'learning_rate': 0.01}"
