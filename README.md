@@ -28,19 +28,14 @@ pip install -r requirements.txt
 
 ## Running the Project
 
-After installing the project, you can run the various components as follows:
+Follow these steps to run the project components:
 
-### Technical Indicator
-To calculate the Technical Indicators,run the `technical_indicator.ipynb`
-### Feature Engineering
-To perform feature engineering, run the `Feature_Engineering.ipynb` 
-### LR & Lasso & RF Training
-For Training traditional mechine learning models, execute the `linear_Regression&_Lasso&_RF.ipynb`
-### LSTM Fine-Tuning
-To fine-tune the LSTM model, execute the `LSTM_fine_tuning_gridsearch.ipynb`
+- **Create Technical Indicator**: Use `technical_indicator.ipynb` for computing stock technical indicators.
+- **Feature Engineering**: Run `Feature_Engineering.ipynb` to prepare and transform stock data features.
+- **Model Training (LR, Lasso, RF)**: Execute `linear_Regression&_Lasso&_RF.ipynb` for training Linear Regression, Lasso, and Random Forest models.
+- **LSTM Model Tuning**: Fine-tune LSTM parameters with `LSTM_fine_tuning_gridsearch.ipynb`.
 
-### Test Trading strategy on Tesla stock price
-In the folder `Tesla`, you can run 
+
 
 
 ## Usage Instructions
@@ -55,7 +50,8 @@ To utilize this project, you'll primarily interact with Jupyter notebooks that c
 5. Run the notebook cells in sequence by clicking `Run` or pressing `Shift + Enter`.
 
 ### Example
-To execute feature engineering, you would open and run the cells within the `Feature_Engineering.ipynb` notebook. The process would be similar for other notebooks like model training or data visualization.
+To test the trading strategy on Tesla stock, open and run the cells within the `Tesla/Lasso-training.ipynb` notebook. A similar process applies to other notebooks for tasks such as model training or data visualization.
+
 
 ## Libraries and Tools Used
 

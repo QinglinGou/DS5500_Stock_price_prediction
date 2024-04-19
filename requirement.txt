@@ -1,0 +1,9 @@
+pandas==2.0.3
+numpy==1.25.2
+matplotlib==3.7.1
+scikit-learn==1.2.2
+tensorflow==2.15.0
+stockstats==0.6.2
+seaborn==0.13.1
+scikeras==0.13.0
+optuna==3.6.1
