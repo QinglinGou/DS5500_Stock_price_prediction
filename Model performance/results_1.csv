@@ -1,17 +1,13 @@
 ,,Train MAE,Train RMSE,Test MAE,Test RMSE,Best Params
-Without FE,Linear Regression,1.483713017608516,2.1859554840700968,2.1038135431112654,2.6571830435064303,{'regressor__fit_intercept': True}
+Without FE,Linear Regression,1.4837130176084339,2.185955484070097,2.1038135431134286,2.6571830435085704,{'regressor__fit_intercept': True}
 Without FE,Lasso,1.4835694481781478,2.2142027048692086,1.6804044900328576,2.190980918513913,"{'regressor__alpha': 0.5, 'regressor__max_iter': 1000}"
-Without FE,Random Forest,0.5736400942086575,0.8558794995958104,9.291998707760504,11.67892847327261,"{'criterion': 'squared_error', 'max_depth': 16, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 100}"
-Without FE,LSTM,8.113161854362845,13.93248763837032,41.49213364215019,44.67917997233616,"{'batch_size': 32, 'epochs': 100, 'optimizer': 'adam'}"
-Boruta,Linear Regression,1.4792214977389937,2.206673358769926,1.8145058990046103,2.35011916382835,{'regressor__fit_intercept': True}
+Without FE,Random Forest,0.6481769560904445,0.9694716452025803,9.210056145749078,11.614042557146107,"{'criterion': 'squared_error', 'max_depth': 16, 'max_features': 'sqrt', 'min_samples_split': 4, 'n_estimators': 100}"
+Boruta,Linear Regression,1.4802033924880063,2.206923384804579,1.811877891562797,2.3453529462516816,{'regressor__fit_intercept': False}
 Boruta,Lasso,1.4844307782338277,2.221659498469237,1.6781161374584839,2.1908176155529504,"{'regressor__alpha': 0.5, 'regressor__max_iter': 1000}"
-Boruta,Random Forest,0.5682054932168361,0.8502799508785349,9.523481545842673,12.063063253264831,"{'criterion': 'squared_error', 'max_depth': 24, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 100}"
-Boruta,LSTM,7.054153006133961,13.026918125077511,39.845545596291984,43.125771374484955,"{'batch_size': 32, 'epochs': 100, 'optimizer': 'adam'}"
-PCA,Linear Regression,1.9251076595545102,2.6937550025082344,75.5881103892067,80.69087579666459,{'regressor__fit_intercept': True}
+Boruta,Random Forest,0.9047849644898521,1.2925635683023216,8.97564500891785,11.520848593988733,"{'criterion': 'squared_error', 'max_depth': 8, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 100}"
+PCA,Linear Regression,1.925107659554514,2.6937550025082344,75.5881103892067,80.69087579666457,{'regressor__fit_intercept': True}
 PCA,Lasso,2.077837030639737,2.850733801978098,75.5881103892067,80.64363038742681,"{'regressor__alpha': 0.5, 'regressor__max_iter': 1000}"
-PCA,Random Forest,1.0844034241904947,1.569025058809926,69.10068172890138,72.863891521019,"{'criterion': 'squared_error', 'max_depth': 24, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 100}"
-PCA,LSTM,6.4055107691674635,11.840666185902396,75.5489940983969,79.33053438084156,"{'batch_size': 32, 'epochs': 100, 'optimizer': 'adam'}"
-t-SNE,Linear Regression,12.969487318507941,15.906424908934216,72.81989232306057,77.30222211061135,{'regressor__fit_intercept': True}
+PCA,Random Forest,1.125865372750463,1.6484975088171783,69.21924161981273,72.82875078627566,"{'criterion': 'squared_error', 'max_depth': 24, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 100}"
+t-SNE,Linear Regression,12.969487318507941,15.906424908934216,72.81989232306057,77.30222211061134,{'regressor__fit_intercept': True}
 t-SNE,Lasso,12.968160023444815,15.90786856767578,72.81462932421255,77.30339537641069,"{'regressor__alpha': 0.5, 'regressor__max_iter': 1000}"
-t-SNE,Random Forest,1.2885250531423464,1.817974398165553,74.87403050757743,82.45274179584494,"{'criterion': 'squared_error', 'max_depth': 16, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 100}"
-t-SNE,LSTM,7.852944098587436,12.613342602591063,64.76216000007497,72.07995314835074,"{'batch_size': 32, 'epochs': 100, 'optimizer': 'adam'}"
+t-SNE,Random Forest,1.5735980216547902,2.2724417565106836,74.30403418539787,82.12734574321043,"{'criterion': 'squared_error', 'max_depth': 24, 'max_features': 'sqrt', 'min_samples_split': 4, 'n_estimators': 100}"
