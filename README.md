@@ -1,11 +1,10 @@
 # DS5500 Stock Price Prediction
 
 ## Introduction
-This project aims to enhance the precision of short-term stock price predictions through a comparative study of machine learning models(Linear Regression, Lasso Regression, Random Forest and LSTM) and feature engineering techniques(Without FE, Boruta, PCA and T-sne), with a focus on [Apple Inc.'s stock (AAPL)](https://finance.yahoo.com/quote/AAPL/history). We seek to determine the most effective computational strategies for financial analytics.
+This project aims to enhance the precision of short-term stock price predictions through a comparative study of machine learning models(Linear Regression, Lasso Regression, Random Forest and LSTM) and feature engineering techniques(Without FE, Boruta, PCA and T-sne), with a focus on [Apple Inc.'s stock (AAPL)](https://finance.yahoo.com/quote/AAPL/history). We seek to determine the most effective computational strategies for financial analytics. The paper for this project in on overleaf: https://www.overleaf.com/read/jqgkyqccvjby#48fcb8
 
 ## Motivation
 Stock price prediction is a complex challenge that requires robust analytical models to guide investment strategies. By identifying the optimal combination of machine learning techniques and feature engineering, we can provide more accurate forecasts, benefiting investment firms and individual investors alike.
-
 
 ## Prerequisites
 
